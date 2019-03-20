@@ -1,0 +1,25 @@
+img {
+	width: 900px;
+}
+#monkey {
+	width: 200px;
+	position: relative;
+	top: -478px;
+	left: 433px;
+	animation: jump 1s;
+	animation-iteration-count: infinite;
+	animation-direction: 	alternate-reverse;	
+}
+
+@keyframes jump {
+	10% {top:-478px;}
+	20% {top:-428px;}
+	30% {top:-378px;}
+	40% {top:-368px;}
+	50% {top:-348px;}
+	60% {top:-328px;}
+	70% {top:-278px;}
+	80% {top:-240px;}
+	90% {top:-250px;}
+	100% {top:-240px;}	
+}
